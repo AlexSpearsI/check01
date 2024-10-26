@@ -4,13 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
 
 
+<form action="index.html" method="get">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="123@gmail.com" required>
+  
+  <label for="telegram">Telegram</label>
+  <input type="telegram" name="telegram" id="telegram" placeholder="123@gmial.com">
+  
+  <label for="topic">Тема</label>
+  <select name="topic" id="topic" required>
+    <option value="courses">Приобретение курсов</option>
+    <option value="feedback">Приобретение курсов</option>
+  </select>
+  
+  <label for="comment"></label>
+  <textarea name="comment" id="comment"></textarea>
+  <input type="checkbox" name="sdf" id="sdf">
+  <button type="submit" value="Send">
+</form>
+
+
+<script src="script.js"></script>
 </body>
 </html>
