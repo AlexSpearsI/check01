@@ -1,13 +1,13 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-// const token = 'YOUR_BOT_TOKEN';
+const token = 'YOUR_BOT_TOKEN';
 
-// const bot = new TelegramBot(token, {polling: true});
+const bot = new TelegramBot(token, {polling: true});
 
-// bot.onText(/\/start/, (msg) => {
-//   const chatId = msg.chat.id;
-//   bot.sendMessage(chatId, 'Welcome! I am a basic Telegram bot.');
-// });
+bot.onText(/\/start/, (msg) => {
+  const chatId = msg.chat.id;
+  bot.sendMessage(chatId, 'Welcome! I am a basic Telegram bot.');
+});
 
 bot.onText(/\/help/, (msg) => {
   const chatId = msg.chat.id;
