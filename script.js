@@ -25,4 +25,4 @@ bot.on('message', (msg) => {
   bot.sendMessage(chatId, 'I can only respond to commands. Try /help to see available commands.');
 });
 
-console.log('Bot is running...');
+console.log('Bot is running...'); 
